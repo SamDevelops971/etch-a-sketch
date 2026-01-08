@@ -1,0 +1,58 @@
+body {
+    background-color: darkred;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin: 0;
+}
+
+.header h1 {
+    color: gold;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+}
+
+ .draw {
+    display: grid;
+    width: 650px;
+    height: 720px;
+    max-width: 650px;
+    max-height: 720px;
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr); 
+ }
+
+ .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 10px;
+ }
+
+ .addGrid {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border: solid black 1px;
+    
+ }
+
+ #sizer {
+    font-size: 20px;
+ }
+
+ 
